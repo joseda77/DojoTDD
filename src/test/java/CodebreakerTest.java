@@ -87,7 +87,7 @@ public class CodebreakerTest {
 	
 	@Test
 	public void oneCoincidencesByOnePosition_5176() {
-		assertEquals("X___", new Codebreaker("5124").decode("5312"));
+		assertEquals("X___", new Codebreaker("5123").decode("5312"));
 	}
 	
 	@Test
